@@ -1,5 +1,4 @@
 baseurl: "/"
-relativeurls: true
 languageCode: "en-us"
 title: "The title of your website"
 theme: "hugo-lithium-theme"
@@ -18,62 +17,62 @@ menu:
   main:
     - name: "About"
       url: "/en/about/"
-      weight: 0
+      weight: 1
     - name: "Blog"
       url: "/en/"
-      weight: 1
+      weight: 2
     - name: "关于"
       url: "/cn/about/"
-      weight: 2
+      weight: 3
     - name: "博客"
       url: "/cn/"
-      weight: 3
+      weight: 4
   en:
     - name: "Home"
       url: "/"
-      weight: 0
+      weight: 1
     - name: "About"
       url: "/en/about/"
-      weight: 1
+      weight: 2
     - name: "Blog"
       url: "/en/"
-      weight: 2
+      weight: 3
     - name: "Vitae"
       url: "/en/vitae/"
-      weight: 3
+      weight: 4
     - name: "中文"
       url: "/cn/"
-      weight: 4
+      weight: 5
   cn:
     - name: "首页"
       url: "/"
-      weight: 0
+      weight: 1
     - name: "关于"
       url: "/cn/about/"
-      weight: 1
+      weight: 2
     - name: "博客"
       url: "/cn/"
-      weight: 2
+      weight: 3
     - name: "简历"
       url: "/cn/vitae/"
-      weight: 3
+      weight: 4
     - name: "English"
       url: "/en/"
-      weight: 4
+      weight: 5
   cool:
     - name: "Home"
       url: "/"
-      weight: 0
+      weight: 1
     - name: "Project Home"
       url: "/cool/"
-      weight: 1
+      weight: 2
     - name: "Sample Page"
       url: "/cool/sample/"
-      weight: 2
+      weight: 3
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/blogdown-yihui-template"
-      weight: 3
+      weight: 4
 
 params:
   description: "Description of your website."
