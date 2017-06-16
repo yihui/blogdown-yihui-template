@@ -5,6 +5,8 @@
 # For my own website, I have more options:
 # https://github.com/rbind/yihui/blob/master/.Rprofile
 
+if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile')
+
 options(
   blogdown.method = 'custom'
 )
